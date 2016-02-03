@@ -1,0 +1,81 @@
+/* CSS Document */
+body{padding:0px; margin:0px; background:#252525; color:#cecece; font:10px/14px Tahoma, sans-serif; }
+div, p, ul, h2, h3, h4, img{padding:0px; margin:0px;}
+ul{list-style-type:none;}
+
+.clear {clear: both; margin: 0px}
+
+/* HEADER */
+
+#header{height:89px; width:775px; margin: 0 auto; position:relative;}
+#logo{width:266px; height:41px; position:absolute; top:27px; left:53px }
+#slogan{width:227px; height:22px; position:absolute; top:38px; left:520px }
+
+/* MAIN */
+
+#main{height:247px; width:775px; background:url(../images/b_main.jpg) 0 0 no-repeat; margin: 0 auto; position:relative; clear:both;}
+
+#main ul {width:180px; position:absolute; top:29px; left:104px;}
+#main ul li{padding-bottom: 20px}
+
+#main ul li.home a{width:93px; height:21px; display:block; background:url(../images/btn_home.gif) 0 0 no-repeat; text-indent:-20000px;}
+#main ul li.home a:hover{width:93px; height:21px; background:url(../images/btn_home_over.gif) 0 0 no-repeat;}
+
+#main ul li.about a{width:76px; height:21px; display:block; background:url(../images/btn_about.gif) 0 0 no-repeat; text-indent:-20000px;}
+#main ul li.about a:hover{width:76px; height:21px; background:url(../images/btn_about_over.gif) 0 0 no-repeat;}
+
+#main ul li.products a{width:106px; height:21px; display:block; background:url(../images/btn_products.gif) 0 0 no-repeat; text-indent:-20000px;}
+#main ul li.products a:hover{width:106px; height:21px; background:url(../images/btn_products_over.gif) 0 0 no-repeat;}
+
+#main ul li.partners a{width:73px; height:21px; display:block; background:url(../images/btn_partners.gif) 0 0 no-repeat; text-indent:-20000px;}
+#main ul li.partners a:hover{width:73px; height:21px; background:url(../images/btn_partners_over.gif) 0 0 no-repeat;}
+
+#main ul li.contact a{width:87px; height:21px; display:block; background:url(../images/btn_contact.gif) 0 0 no-repeat; text-indent:-20000px;}
+#main ul li.contact a:hover{width:87px; height:21px; background:url(../images/btn_contact_over.gif) 0 0 no-repeat;}
+
+
+/* CONTENT */
+
+#content{width:775px; background:url(../images/b_content.jpg) 0 0 repeat-y; margin: 0 auto; clear:both; }
+
+#content a{font:10px/14px Tahoma, sans-serif; color:#e9e402; font-weight:bold; text-decoration:none }
+#content a:hover{color:#fff; border-bottom: #fff 1px dotted; text-decoration:none }
+
+#content a.orange{font:10px/14px Tahoma, sans-serif; color:#f5a418; font-weight:normal; text-decoration:underline }
+#content a.orange:hover{color:#fff; border-bottom: #fff 1px dotted; text-decoration:none }
+
+#content p span.boldwhite{font:12px/14px Trebuchet MS, sans-serif; color:#fff; font-weight:bold; padding-bottom:5px}
+
+#content img{border:#687177 2px solid; margin: 7px 0 7px 0}
+
+#leftPan{width:200px; margin: 21px 0 20px 84px; display:inline; float:left; }
+
+.line{height:1px; background:#555657; margin-bottom:15px}
+
+#news{width:179px; position: relative;}
+#news h2{width:136px; height:18px; background:url(../images/h_news.gif) 0 0 no-repeat; position:relative; padding: 0 0 7px 0; margin: 0 0 0 1px}
+#news p{padding:7px 0 15px 0 }
+
+#rightPan{width:407px; margin: 21px 0 20px 39px; display:inline; float:left }
+
+#welcome{position: relative; clear:both; margin-bottom:20px}
+#welcome h2{width:204px; height:18px; background:url(../images/h_welcome.gif) 0 0 no-repeat; position:relative; padding: 0 0 7px 0; margin: 0 0 0 1px}
+#welcome p{padding:7px 0 15px 0 }
+#welcome p span.boldwhite {display:block; margin:0 0 10px 0}
+
+#featured{position: relative; clear:both}
+#featured h2{width:204px; height:18px; background:url(../images/h_featured.gif) 0 0 no-repeat; position:relative; padding: 0 0 7px 0; margin: 0 0 0 1px}
+#featured ul {width:193px; position:relative; top:0; left:11px; float:left; margin-right:24px}
+#featured ul li{height:22px;}
+#featured ul li a{display:block; background:url(../images/arrow.jpg) 0 4px no-repeat; padding: 0 0 0 21px; font:10px/14px Tahoma, sans-serif; color:#e9e402; text-decoration:underline; font-weight:normal}
+#featured ul li a:hover{color:#fff; text-decoration:none; font-weight:normal; border-bottom:none }
+
+#featured img{float:left; margin: 0 0 15px 0}
+#featured p{float:left; width:175px; padding-left:2px}
+
+/* FOOTER */
+
+#footer{width:775px; height:75px; margin: 0 auto; clear:both; background:url(../images/b_footer.jpg) 0 0 repeat-x}
+#footer p{padding: 25px 0 0 0; font:10px/16px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal; text-align:center; color:#fff;}
+#footer p a{font:10px/16px Tahoma, Arial, Helvetica, sans-serif; font-weight:normal; color:#fff; text-decoration:none; padding: 0 5px }
+#footer p a:hover{color:#e9e402; background:#40454a;}
